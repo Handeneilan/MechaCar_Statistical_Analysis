@@ -18,7 +18,11 @@ R-squared is .7149, means there is a strong correlation for the dataset. ?f we o
 
 #### Total Summmary
 
+<img src="./images/Total_summary.png" alt="Total Summary" width="500"/>
+
 #### Lot Summary
+
+<img src="./images/lot_summary.png" alt="Lot Summary" width="500"/>
 
 When we look at the total summary variance is 62. Variance being smaler than 100 is good however if we look at the lot summary we see that the variance of lot3 is significantly higher than 100. That means Lot3 does not meet the design specifications.
 
@@ -26,11 +30,19 @@ When we look at the total summary variance is 62. Variance being smaler than 100
 
 #### T-test for all lots
 
+<img src="./images/one_sample_t_test_all.png" alt="t-test for all" width="500"/>
+
 #### T-test for Lot1
+
+<img src="./images/one_sample_t_test_lot_1.png" alt="t-test for lot 1" width="500"/>
 
 #### T-test for Lot2
 
+<img src="./images/one_sample_t_test_lot_2.png" alt="t-test for lot 2" width="500"/>
+
 #### T-test for Lot3
+
+<img src="./images/one_sample_t_test_lot_3.png" alt="t-test for lot 3" width="500"/>
 
 It looks like Lot1 and Lot 2 show a normak distrubiton so we cannot really reject the null hypothesis.
 
